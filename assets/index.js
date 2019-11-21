@@ -1226,7 +1226,6 @@ let soul = [
 '孩子，矮又如何？抬起你的头来，让他们知道，你不仅矮，而且还丑！',
 '丑不要紧，用你的言谈举止让其他人明白：你还是一个没有内涵的人。',
 ];
-
 function randomSentence() {
   document.getElementById('sentence').innerHTML = soul[Math.floor(Math.random() * soul.length)];
 }
